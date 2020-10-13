@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<user>
+		<id>1058</id>
+		<name>z379115475</name>
+		<type>0</type>
+	</user>
+	<config>
+		<run>yes</run>
+		<delayed>0</delayed>
+		<delproj list="111"/>
+	</config>
+	<projlist>
+		<item>
+			<name>kjt</name>
+			<id>17</id>
+			<key>400387</key>
+		</item>
+		<item>
+			<name>qt</name>
+			<id>23</id>
+			<key>400626</key>
+		</item>
+	</projlist>
+	<datetime>2016-10-08 17:08:45</datetime>
+</root>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{047cbf61-f90f-4436-9c84-e4537634990e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{63fc1b1c-9fc7-4c23-87f7-77b8b381b8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\json">
+      <UniqueIdentifier>{338c3ee1-1c15-4994-870b-181b7792c656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\lib_json">
+      <UniqueIdentifier>{de3966df-f483-4325-a38b-e5bb29c5a035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nvapi">
+      <UniqueIdentifier>{a7d9818f-d2fc-468e-a212-71d02638ce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AmdApi">
+      <UniqueIdentifier>{2004f37f-a567-42eb-94a5-75e4fdf6c7c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCollect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CxLog.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dummyxml.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HardInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HideProc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HttpHelp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IPCModule.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\md5.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ResTool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Unzip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Zlib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\autolink.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\config.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\features.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\forwards.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\json.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\value.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json\writer.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\lib_json\json_batchallocator.h">
+      <Filter>json\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CPUInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GPUInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_common.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_d3dext.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_salend.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_salstart.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_sli.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_stereo.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvapi_lite_surround.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\NvApiDriverSettings.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvHLSLExtns.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvHLSLExtnsInternal.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Nvapi\nvShaderExtnEnums.h">
+      <Filter>Nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CPUusage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmdApi\adl_defines.h">
+      <Filter>AmdApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmdApi\adl_sdk.h">
+      <Filter>AmdApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmdApi\adl_structures.h">
+      <Filter>AmdApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MemLoadDLL.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MemStartExe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\PebGetCmdLine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCollect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Unzip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\lib_json\json_reader.cpp">
+      <Filter>json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\lib_json\json_value.cpp">
+      <Filter>json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\lib_json\json_writer.cpp">
+      <Filter>json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CPUInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="testXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Nvapi\NvApiDriverSettings.cpp">
+      <Filter>Nvapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MemLoadDLL.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MemStartExe.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommonCollect.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="CommonCollect.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\json\lib_json\json_internalarray.inl">
+      <Filter>json\lib_json</Filter>
+    </None>
+    <None Include="..\json\lib_json\json_internalmap.inl">
+      <Filter>json\lib_json</Filter>
+    </None>
+    <None Include="..\json\lib_json\json_valueiterator.inl">
+      <Filter>json\lib_json</Filter>
+    </None>
+    <None Include="..\json\lib_json\sconscript">
+      <Filter>json\lib_json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
